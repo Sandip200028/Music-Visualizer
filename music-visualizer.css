@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+input[type="file"] {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
